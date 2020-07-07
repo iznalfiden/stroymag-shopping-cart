@@ -27,7 +27,7 @@ const User = db.user;
 const Products = db.products;
 const Cart = db.cart;
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
-const sequelize = new Sequelize('stroymag', 'root', 'm1a2d3i4y5a6r71735071', {
+const sequelize = new Sequelize('stroymag', 'root', 'mypassword', {
     dialect: 'mysql',
 });
 const myStore = new SequelizeStore({
