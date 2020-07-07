@@ -1,0 +1,28 @@
+<body>
+    <div class="container" style="height: 400px;">
+        <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist" style="text-align: center; padding: 2rem;">
+                <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-orders" role="tab"
+                    aria-controls="nav-home" aria-selected="true">Мои заказы</a>
+                <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab"
+                    aria-controls="nav-profile" aria-selected="false">Мои данные</a>
+                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab"
+                    aria-controls="nav-contact" aria-selected="false">Выход</a>
+            </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-orders" role="tabpanel" aria-labelledby="nav-home-tab">...
+            </div>
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                <div class="container">
+                    <ul class="list-group">
+                        <li class="list-group-item"><b>Логин</b> - {{name}}</li>
+                        <li class="list-group-item"><b>Электронная почта</b> - {{email}}</li>
+                        <li class="list-group-item"><b>Номер телефона</b> - </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
+        </div>
+    </div>
+</body>
